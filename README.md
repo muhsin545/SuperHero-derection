@@ -1,4 +1,4 @@
-<h1>Arrange Seminar</h1>
+<h1>Welcome to Arrange Seminar</h1>
 <ul>
                 <li>You Can Select your favourite Sheikh so that they can perform in your seminar</li>
                 <li>You Can able to see their salaries</li>
