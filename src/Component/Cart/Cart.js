@@ -16,12 +16,10 @@ const Cart = (props) => {
     const dollar = <FontAwesomeIcon icon={faDollarSign} />
     return (
         <div>
-            <div class="card text-dark bg-white" style={{
-                maxWidth: "18rem"
-            }}>
+            <div class="card text-dark bg-white shadow w-auto">
                 <div class="card-header bg-white text-center fw-bolder">Summary</div>
                 <div className="card-body">
-                    <h3>{element} Sheikh Added:{props.cart.length} </h3>
+                    <h4>{element} Sheikh Added:{props.cart.length} </h4>
                     <h4>Total Cost :{dollar} {total}  </h4>
                     <ul>
                         <li>{displayName}</li>

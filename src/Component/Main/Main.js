@@ -21,16 +21,15 @@ const Main = () => {
     }
     return (
         <div>
-            <div className="row ">
+            <div className="row container-fluid">
                 <div className="col-md-9">
-                    <div className="row m-0 mt-2 mb-2">
+                    <div className="row g-2 mt-2">
                         {
                             celebrities.map(celebrity => <Celebrity key={celebrity.key} celebrity={celebrity} handleAddToCart={handleAddToCart}></Celebrity>)
                         }
                     </div>
-
                 </div>
-                <div className="col-md-3 mt-3 me-auto">
+                <div className="col-md-3 mt-3">
                     <Cart cart={cart}></Cart>
                 </div>
             </div>

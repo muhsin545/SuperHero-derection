@@ -8,11 +8,9 @@ const Celebrity = (props) => {
 
     const { name, salary, occupation, img, country, Age } = props.celebrity
     return (
-        <div className='col-md-4 mb-4'>
-            <div className="card mb-3  h-100" style={{
-                maxWidth: '540px'
-            }}>
-                <div class="">
+        <div className='col-md-4 mb-2'>
+            <div className="card mb-4  h-100 border-2 border-info shadow rounded-3">
+                <div>
                     <div className="text-center">
                         <img width='50%' src={img} className="img-fluid rounded-pill  mt-5 pt-2" alt='img of Sheikh' />
 
