@@ -22,7 +22,7 @@ const Cart = (props) => {
                     <h4>{element} Sheikh Added:{props.cart.length} </h4>
                     <h4>Total Cost :{dollar} {total}  </h4>
                     <ul>
-                        <li>{displayName}</li>
+                        {displayName}
                     </ul>
                 </div>
 

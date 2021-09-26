@@ -5,14 +5,13 @@ import Celebrity from './Celebrity/Celebrity';
 import './Main.css'
 const Main = () => {
 
-
-
     const [celebrities, setCelebrities] = useState([])
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
             .then(data => setCelebrities(data))
     }, [])
+    // Part of Cart 
     const [cart, setCart] = useState([])
 
     const handleAddToCart = (celebrity) => {
