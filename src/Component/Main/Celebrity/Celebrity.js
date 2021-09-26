@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Celebrity.css'
 const Celebrity = (props) => {
-
+    // font awesome
     const element = <FontAwesomeIcon icon={faShoppingCart} />
+    // Destructuring
+    const { name, salary, occupation, img, country, Age } = props.celebrity;
 
-    const { name, salary, occupation, img, country, Age } = props.celebrity
     return (
         <div className='col-md-4 mb-2'>
             <div className="card mb-4  h-100 border-2 border-info shadow rounded-3">
