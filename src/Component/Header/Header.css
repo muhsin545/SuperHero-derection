@@ -1,0 +1,17 @@
+.header{
+    padding: 15px;
+    font-weight:700 ;
+    text-align: center;
+    background-color: rgb(133, 194, 174);
+    color: rgb(255, 255, 255);
+}
+.span{
+    color: gold;
+}
+small{
+    font-weight: 500;
+color: black;
+}
+span{
+    font-weight: 800;
+}
