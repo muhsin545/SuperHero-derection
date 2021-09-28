@@ -20,7 +20,7 @@ const Main = () => {
     }
     return (
         <div>
-            <div className="row container-fluid">
+            <div className="row container-fluid gx-1">
                 <div className="col-md-9">
                     <div className="row g-2 mt-2">
                         {

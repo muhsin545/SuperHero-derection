@@ -19,7 +19,7 @@ const Cart = (props) => {
         <div>
             <div className="card text-dark bg-white shadow w-auto">
                 <div className="card-header bg-white text-center fw-bolder">Summary</div>
-                <div className="card-body border border-info">
+                <div className="card-body border border-info text-center">
                     <h4>{element} Sheikh Added:{props.cart.length} </h4>
                     <h4>Total Cost :{dollar} {total}  </h4>
                     {displayName}
